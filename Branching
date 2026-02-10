@@ -1,0 +1,11 @@
+##creating a brach and swith
+git checkout -b feature-message
+##make some changes into your code
+git add . 
+git commit -m "message explaining the chaneg"
+git push -u origin feature-message
+
+#### Merging them
+git checkout main
+git merge feature-message
+git push
