@@ -1,0 +1,15 @@
+How to Connect local repository to remote repository(github)
+cd <your repository>
+git init
+git add . 
+git commit -m "your message"
+git remote add origin "http address of your repository in github"
+git branch -M main/master
+git push -u origin main/master
+
+
+####after this for every single change go to your repository and do this in your terminal
+git add .
+git commit -m "new changes you made"
+git push
+
