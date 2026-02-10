@@ -3,8 +3,8 @@ cd <your repository>
 git init
 git add . 
 git commit -m "your message"
+git branch -M main
 git remote add origin "http address of your repository in github"
-git branch -M main/master
 git push -u origin main/master
 
 
