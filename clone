@@ -1,0 +1,5 @@
+firt go to github
+find the repository you want
+get the http address
+go to your teminal and change the directory you want to download your files
+git clone <httpaddress>
